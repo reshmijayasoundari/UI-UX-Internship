@@ -1,0 +1,176 @@
+@media only screen and (max-width:768px){
+    header .navbar-brand{
+        padding-left:1rem;
+    }
+
+
+.section-1 .row .col-md-6 .panel{
+    position:initial;
+    width:initial;
+    height:initial;
+}
+
+.section-2 .cover{
+    background-position:-25vmin -10vmin;
+}
+
+.numbers .rect{
+    width:9rem;
+    height:9rem;
+}
+
+.numbers .rect h1{
+    font-size:2rem;
+}
+
+.cards .card {
+    height:28rem;
+    width:12rem;
+    margin:2rem;
+}
+
+.section-2 .card  {
+       
+    width:15rem;
+    
+    
+    
+}     
+
+.cards .button{
+    padding-left:1.5rem;
+}
+
+.section-3{
+    height:inherit;
+    padding:10vmin !important;
+
+}
+
+.section-3 .row h1{
+    padding:6vmin 4vmin;
+}
+
+.section-3 .row .col-md-6{
+    text-align:center !important;
+}
+
+.section-3 .desktop i{
+    font-size:8vmin;
+}
+
+.section-4 .carousel-item{
+    padding-left:0.6rem;
+}
+
+.section-4 .team{
+    display:flex;
+    flex-direction:column;
+    align-content:center;
+}
+
+.section-4 .carousel-inner{
+    width:25rem;
+    margin:1rem;
+}
+
+}
+
+@media only screen and (max-width:425px){
+    footer .row .col-md-2{
+        margin-top:8vmin;
+    }
+
+    .section-2 .cards .card {
+        height:25rem;
+        width:15rem;
+        margin:0.5rem;
+    }
+
+    
+   
+    
+
+}
+
+@media only screen and (max-width:320px) {
+    
+    
+
+
+    .section-2 .card{
+        width: 20rem;
+        display:flex;
+       
+       
+        
+       
+ 
+     }
+     .section-2 .card-body  {
+       
+        width:15rem;
+        
+        
+        
+    }     
+
+
+.section-2 .card-body .title {
+    font-size: 1rem;
+}
+
+.section-2 .card-body .card-text {
+    font-size: 1rem;
+}
+
+.section-2 .card-body .button {
+    padding-right: 2rem;
+    
+}
+ 
+
+   .section-2 .cards {
+   
+    height: 30rem;
+   }
+
+   
+
+    .section-4 .card{
+        width:18rem;
+    }
+
+    .section-4 .carousel-inner{
+        margin-left:-14vmin;
+    }
+
+
+    
+}
+
+@media (max-width:584px){
+    .container{
+        max-width:100%;
+    }
+
+
+form .user-details .input-box{
+    margin-bottom:15px;
+    width:100%;
+}
+
+form .gender-details .categery{
+    width:100%;
+}
+
+.container form .user-details{
+    max-height:300px;
+    overflow-y:scroll;
+}
+
+.user-details::-webkit-scrollbar{
+    width:0;
+}
+
+}

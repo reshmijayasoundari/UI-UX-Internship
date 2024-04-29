@@ -1,0 +1,99 @@
+/**Google Fonts**/
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Lobster&family=Patua+One&family=Rubik:wght@300&family=Sniglet&display=swap');
+
+:root{
+    --light-black:#2e2c2caf;
+    --bggradient:linear-gradient(to bottom,#9400d3,#ff1493);
+    --light-gray:rgba(255,255,255,0.75);
+}
+
+.heading-link{
+    
+    text-align: center;
+    color:black;
+    background-color: #99ff99;
+    
+}
+
+.box-container{
+    background-color:#99ff99;
+}
+
+.image{
+    height:25rem;
+    overflow:hidden;
+    position:relative;
+
+}
+
+:focus{
+    background:#00ff8c;
+}
+
+.btn{
+    background-color: #7f0deb;
+    color: white;
+}
+
+
+
+img{
+    height:100%;
+    width:100%;
+    object-fit:cover;
+}
+
+h3{
+    position:absolute;
+    top: 1rem;
+    left:1rem;
+    padding: 5rem 1.5rem;
+    background: white;
+}
+
+.content{
+    padding:2rem;
+    text-align: center;
+    border:#000000;
+}
+
+p{
+    padding:1rem 0;
+}
+
+
+
+
+
+/**Footer**/
+footer{
+    background: #000000;
+    overflow-x:hidden;
+    padding:14vmin 18vmin;
+}
+
+footer p>span{
+    color:#8a2be2;
+}
+
+footer input{
+    border:none !important;
+}
+
+footer input::placeholder{
+    color:white !important;
+}
+
+footer .input-group .input-group-text{
+    background:var(--bggradient);
+    border:none;
+}
+
+footer .column i{
+    color:#8a2be2;
+}
+
+footer.columni+i{
+    padding:0 0.5em;
+}
+

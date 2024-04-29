@@ -1,0 +1,52 @@
+<section class="heading-link">
+        <h3>Contact Us</h3>
+        <p> <a class="nav-link" href="UI UX Designing Project .html">Home</a> / Contact Us </p>
+    
+    </section>
+
+
+
+<section class="contact">
+    <div class="icons-container">
+<div class="icons">
+<i class="fas fa-clock"></i>
+<h3>Opening Hours :</h3>
+<p>7 am to 6 pm</p>
+</div>
+
+<div class="icons">
+    <i class="fas fa-phone"></i>
+    <h3>Phone no :</h3>
+    <p>+123-456-7890</p>
+    <p>+458-974-1247</p>
+</div>
+
+<div class="icons">
+    <i class="fas fa-envelope"></i>
+    <h3>Email :</h3>
+    <p>designs@gmail.com</p>
+</div>
+<div class="icons">
+    <i class="fas fa-map"></i>
+    <h3>Location :</h3>
+    <p>Chennai - 600075</p>
+   
+</div>
+
+
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+
+
+
+
+

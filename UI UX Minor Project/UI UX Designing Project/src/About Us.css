@@ -1,0 +1,160 @@
+/**Google Fonts**/
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Lobster&family=Patua+One&family=Rubik:wght@300&family=Sniglet&display=swap');
+
+
+:root{
+    
+    --light-black:#2e2c2caf;
+    --bggradient:linear-gradient(to bottom,#9400d3,#ff1493);
+    --light-gray:rgba(255,255,255,0.75);
+}
+
+
+
+header{
+    background:#dd2476;
+    background:var(--bggradient);
+    margin-bottom :2rem;
+}
+
+.heading-link{
+    
+    text-align: center;
+    color:white;
+}
+
+
+
+.about .icons-container{
+    margin-bottom :2rem;
+    text-align:center;
+    background:rgba(0,0,0,0);
+    height: 500px;;
+    width: 250px;;
+    padding-top:19vmin;
+    display:flex;
+    line-break: 1px;
+    
+    justify-content:space-between;
+
+
+    
+    
+}
+
+
+
+
+ .about .icons-container .icons{
+    
+    
+    height:6rem;
+    width:6rem;
+    line-height:6rem;
+    font-size:2rem;
+    border-radius:50%;
+    margin-bottom:0.5;
+    color:black;
+    background:aqua;
+ }
+
+form{
+    background:white;
+    display: flex;
+    flex-direction: column;
+    padding: 2vw 4vw;
+    width:90%;
+    max-width: 600px;
+    border-radius: 10px;
+    
+}
+
+.message-container{
+    width:100%;
+    height:120vh;
+    background:#001660;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    margin-bottom :2rem;
+}
+
+form h3{
+    color:#555;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+form input, form textarea{
+    border:0;
+    margin:10px 0;
+    padding:20px;
+    outline: black;
+    background: #f5f5f5;
+    font-size: 16px;
+}
+
+form button{
+    padding:15px;
+    background:#8a2be2;
+    color: #fff;
+    font-size: 18px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    width:150px;
+    margin:20px auto 0;
+    border-radius: 30px;
+}
+
+:focus{
+    background:#d4c9df;
+}
+
+::placeholder{
+    color:#000000;
+    
+}
+
+/**Footer**/
+footer{
+    background: #000000;
+    overflow-x:hidden;
+    padding:12vmin 18vmin;
+    
+}
+
+footer p>span{
+    color:#8a2be2;
+}
+
+footer input{
+    border:none !important;
+}
+
+footer input::placeholder{
+    color:white !important;
+    }
+
+footer .form-inline{
+    background: none;
+    width: 100%;
+}
+
+footer .input-group .input-group-text{
+    background:var(--bggradient);
+    border:none;
+    height:40px;
+}
+
+footer .column i{
+    color:#8a2be2;
+}
+
+footer.columni+i{
+    padding:0 0.5em;
+}
+
+
+
+
